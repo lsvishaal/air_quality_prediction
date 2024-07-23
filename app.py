@@ -1,0 +1,2 @@
+Alpha = "potato"
+print(Alpha)
