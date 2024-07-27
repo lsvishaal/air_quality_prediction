@@ -49,5 +49,5 @@ mse = mean_squared_error(y_test, y_pred)
 print(f'Mean Squared Error: {mse}')
 
 # Step 3: Save the Model
-model_path = r'C:\Users\Atomic\Documents\Code\air_quality_prediction\models\air_quality_prediction_model.pkl'
+model_path = 'models/air_quality_prediction_model.pkl'
 joblib.dump(model, model_path)
